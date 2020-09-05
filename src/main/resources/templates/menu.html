@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8" />
+		
+	</head>
+<body>
+	
+
+<div id="left" style="left: 0;">
+	<div id="div-menu-group-1"><ul id="menu-group-1" class="nav menu"><li class="item-1 deeper parent" style="padding:16px 0px 3px 6px"><b>東芝様用機能</b></li><li class="item-1 deeper parent">
+						<a data-toggle="collapse" href="#sub-item-2">
+							<span data-parent="#menu-group-1" href="#" class="sign"><i id="pmicon2" class="icon-plus icon-white"></i></span>
+							<span class="lbl">契約情報一覧</span>
+						</a>
+						<ul class="children nav-child unstyled small collapse" id="sub-item-2"><li class="item-1"><a href="/contract"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">証券番号一覧</span></a></li><li class="item-1"><a href="/contractfix"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">契約者一覧</span></a></li></ul></li><li class="item-1 deeper parent">
+						<a data-toggle="collapse" href="#sub-item-6">
+							<span data-parent="#menu-group-1" href="#" class="sign"><i id="pmicon6" class="icon-plus icon-white"></i></span>
+							<span class="lbl">作業指示情報一覧</span>
+						</a>
+						<ul class="children nav-child unstyled small collapse" id="sub-item-6"><li class="item-1"><a href="/deliverylisttcs"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">新規出荷一覧</span></a></li><li class="item-1"><a href="/collectlisttcs"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">解約回収一覧</span></a></li><li class="item-1"><a href="/tsexchange"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">交換一覧</span></a></li><li class="item-1"><a href="/tslost"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">紛失交換一覧</span></a></li></ul></li><li class="item-1 deeper parent">
+						<a data-toggle="collapse" href="#sub-item-12">
+							<span data-parent="#menu-group-1" href="#" class="sign"><i id="pmicon12" class="icon-plus icon-white"></i></span>
+							<span class="lbl">作業結果登録</span>
+						</a>
+						<ul class="children nav-child unstyled small collapse" id="sub-item-12"><li class="item-1 deeper parent">
+						<a data-toggle="collapse" href="#sub-item-14">
+							<span data-parent="#menu-group-1" href="#" class="sign"><i id="pmicon14" class="icon-plus icon-white"></i></span>
+							<span class="lbl">新規出荷</span>
+						</a>
+						<ul class="children nav-child unstyled small collapse" id="sub-item-14"><li class="item-1"><a href="/deliveryresultupload/index/1"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">ドラレコ出荷結果</span></a></li><li class="item-1"><a href="/deliveryresultupload/index/2"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">SDカード出荷結果</span></a></li></ul></li><li class="item-1 deeper parent">
+						<a data-toggle="collapse" href="#sub-item-18">
+							<span data-parent="#menu-group-1" href="#" class="sign"><i id="pmicon18" class="icon-plus icon-white"></i></span>
+							<span class="lbl">解約回収</span>
+						</a>
+						<ul class="children nav-child unstyled small collapse" id="sub-item-18"><li class="item-1"><a href="/collectkitupload"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">回収キット送付結果</span></a></li><li class="item-1"><a href="/collectresultupload/index/1"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">ドラレコ回収結果</span></a></li><li class="item-1"><a href="/collectresultupload/index/2"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">SDカード回収結果</span></a></li></ul></li><li class="item-1 deeper parent">
+						<a data-toggle="collapse" href="#sub-item-23">
+							<span data-parent="#menu-group-1" href="#" class="sign"><i id="pmicon23" class="icon-plus icon-white"></i></span>
+							<span class="lbl">交換/紛失交換出荷</span>
+						</a>
+						<ul class="children nav-child unstyled small collapse" id="sub-item-23"><li class="item-1"><a href="/exchangeshippingupload/index/1"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">ドラレコ交換出荷結果</span></a></li><li class="item-1"><a href="/exchangeshippingupload/index/2"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">SDカード交換出荷結果</span></a></li></ul></li><li class="item-1 deeper parent">
+						<a data-toggle="collapse" href="#sub-item-27">
+							<span data-parent="#menu-group-1" href="#" class="sign"><i id="pmicon27" class="icon-plus icon-white"></i></span>
+							<span class="lbl">交換回収</span>
+						</a>
+						<ul class="children nav-child unstyled small collapse" id="sub-item-27"><li class="item-1"><a href="/exchangecollectupload/index/1"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">ドラレコ交換回収結果</span></a></li><li class="item-1"><a href="/exchangecollectupload/index/2"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">SDカード交換回収結果</span></a></li></ul></li><li class="item-1 deeper parent">
+						<a data-toggle="collapse" href="#sub-item-31">
+							<span data-parent="#menu-group-1" href="#" class="sign"><i id="pmicon31" class="icon-plus icon-white"></i></span>
+							<span class="lbl">出荷差戻<br /><span style="font-size:90%">(新規/解約/交換/紛失交換)</span></span>
+						</a>
+						<ul class="children nav-child unstyled small collapse" id="sub-item-31"><li class="item-1"><a href="/deliveryreturnupload"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">出荷戻り結果</span></a></li></ul></li><li class="item-1 deeper parent">
+						<a data-toggle="collapse" href="#sub-item-34">
+							<span data-parent="#menu-group-1" href="#" class="sign"><i id="pmicon34" class="icon-plus icon-white"></i></span>
+							<span class="lbl">CSVアップロード履歴</span>
+						</a>
+						<ul class="children nav-child unstyled small collapse" id="sub-item-34"><li class="item-1"><a href="/csvuploadhistory"><span class="sign"><i class="icon-play"></i></span><span class="lbl link"><span style="font-size:90%">CSVデータアップロード履歴</span></span></a></li></ul></li></ul></li><li class="item-1 deeper parent">
+						<a data-toggle="collapse" href="#sub-item-37">
+							<span data-parent="#menu-group-1" href="#" class="sign"><i id="pmicon37" class="icon-plus icon-white"></i></span>
+							<span class="lbl">配送状況管理</span>
+						</a>
+						<ul class="children nav-child unstyled small collapse" id="sub-item-37"><li class="item-1"><a href="/deliveryhistoryupload"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">ヤマト配送状況アップロード</span></a></li></ul></li><li class="item-1 deeper parent">
+						<a data-toggle="collapse" href="#sub-item-39">
+							<span data-parent="#menu-group-1" href="#" class="sign"><i id="pmicon39" class="icon-plus icon-white"></i></span>
+							<span class="lbl">在庫管理</span>
+						</a>
+						<ul class="children nav-child unstyled small collapse" id="sub-item-39"><li class="item-1 deeper parent">
+						<a data-toggle="collapse" href="#sub-item-41">
+							<span data-parent="#menu-group-1" href="#" class="sign"><i id="pmicon41" class="icon-plus icon-white"></i></span>
+							<span class="lbl">ステータス情報一覧</span>
+						</a>
+						<ul class="children nav-child unstyled small collapse" id="sub-item-41"><li class="item-1"><a href="/driverecorder"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">ドライブレコーダ一覧</span></a></li><li class="item-1"><a href="/sdcard"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">SDカード一覧</span></a></li></ul></li><li class="item-1 deeper parent">
+						<a data-toggle="collapse" href="#sub-item-45">
+							<span data-parent="#menu-group-1" href="#" class="sign"><i id="pmicon45" class="icon-plus icon-white"></i></span>
+							<span class="lbl">ステータス更新登録</span>
+						</a>
+						<ul class="children nav-child unstyled small collapse" id="sub-item-45"><li class="item-1"><a href="/driverecorderstatusupload"><span class="sign"><i class="icon-play"></i></span><span class="lbl link"><span style="font-size:90%">ドラレコ情報CSVアップロード</span></span></a></li><li class="item-1"><a href="/sdcardstatusupload"><span class="sign"><i class="icon-play"></i></span><span class="lbl link"><span style="font-size:90%">SDカード情報CSVアップロード</span></span></a></li></ul></li></ul></li><li class="item-1 deeper parent" style="padding:16px 0px 3px 6px"><b>東芝(CC)様用機能</b></li><li class="item-1 deeper parent">
+						<a data-toggle="collapse" href="#sub-item-50">
+							<span data-parent="#menu-group-1" href="#" class="sign"><i id="pmicon50" class="icon-plus icon-white"></i></span>
+							<span class="lbl">契約管理</span>
+						</a>
+						<ul class="children nav-child unstyled small collapse" id="sub-item-50"><li class="item-1"><a href="/contract"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">証券番号一覧</span></a></li><li class="item-1"><a href="/contractfix"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">契約者一覧</span></a></li></ul></li><li class="item-1 deeper parent">
+						<a data-toggle="collapse" href="#sub-item-54">
+							<span data-parent="#menu-group-1" href="#" class="sign"><i id="pmicon54" class="icon-plus icon-white"></i></span>
+							<span class="lbl">出荷管理</span>
+						</a>
+						<ul class="children nav-child unstyled small collapse" id="sub-item-54"><li class="item-1"><a href="/deliverylist"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">新規出荷一覧</span></a></li></ul></li><li class="item-1 deeper parent">
+						<a data-toggle="collapse" href="#sub-item-57">
+							<span data-parent="#menu-group-1" href="#" class="sign"><i id="pmicon57" class="icon-plus icon-white"></i></span>
+							<span class="lbl">回収管理</span>
+						</a>
+						<ul class="children nav-child unstyled small collapse" id="sub-item-57"><li class="item-1"><a href="/collectlist"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">解約回収一覧</span></a></li></ul></li><li class="item-1 deeper parent">
+						<a data-toggle="collapse" href="#sub-item-60">
+							<span data-parent="#menu-group-1" href="#" class="sign"><i id="pmicon60" class="icon-plus icon-white"></i></span>
+							<span class="lbl">交換・紛失交換管理</span>
+						</a>
+						<ul class="children nav-child unstyled small collapse" id="sub-item-60"><li class="item-1"><a href="/maintenancelist"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">交換・紛失交換申請</span></a></li><li class="item-1"><a href="/sjexchangelist"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">交換一覧</span></a></li><li class="item-1"><a href="/sjlostlist"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">紛失交換一覧</span></a></li></ul></li><li class="item-1 deeper parent">
+						<a data-toggle="collapse" href="#sub-item-65">
+							<span data-parent="#menu-group-1" href="#" class="sign"><i id="pmicon65" class="icon-plus icon-white"></i></span>
+							<span class="lbl">在庫管理</span>
+						</a>
+						<ul class="children nav-child unstyled small collapse" id="sub-item-65"><li class="item-1 deeper parent">
+						<a data-toggle="collapse" href="#sub-item-67">
+							<span data-parent="#menu-group-1" href="#" class="sign"><i id="pmicon67" class="icon-plus icon-white"></i></span>
+							<span class="lbl">ステータス情報一覧</span>
+						</a>
+						<ul class="children nav-child unstyled small collapse" id="sub-item-67"><li class="item-1"><a href="/driverecorder"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">ドライブレコーダ一覧</span></a></li><li class="item-1"><a href="/sdcard"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">SDカード一覧</span></a></li></ul></li></ul></li><li class="item-1 deeper parent" style="padding:16px 0px 3px 6px"><b>SJ様用機能</b></li><li class="item-1 deeper parent">
+						<a data-toggle="collapse" href="#sub-item-72">
+							<span data-parent="#menu-group-1" href="#" class="sign"><i id="pmicon72" class="icon-plus icon-white"></i></span>
+							<span class="lbl">契約情報一覧</span>
+						</a>
+						<ul class="children nav-child unstyled small collapse" id="sub-item-72"><li class="item-1"><a href="/contract"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">証券番号一覧</span></a></li><li class="item-1"><a href="/contractfix"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">契約者一覧</span></a></li></ul></li><li class="item-1 deeper parent">
+						<a data-toggle="collapse" href="#sub-item-76">
+							<span data-parent="#menu-group-1" href="#" class="sign"><i id="pmicon76" class="icon-plus icon-white"></i></span>
+							<span class="lbl">出荷管理</span>
+						</a>
+						<ul class="children nav-child unstyled small collapse" id="sub-item-76"><li class="item-1"><a href="/deliverylist"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">新規出荷一覧</span></a></li></ul></li><li class="item-1 deeper parent">
+						<a data-toggle="collapse" href="#sub-item-79">
+							<span data-parent="#menu-group-1" href="#" class="sign"><i id="pmicon79" class="icon-plus icon-white"></i></span>
+							<span class="lbl">出荷/回収/取再調整/紐づけ変更</span>
+						</a>
+						<ul class="children nav-child unstyled small collapse" id="sub-item-79"><li class="item-1"><a href="/deliverymodifylist"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">新規出荷前調整一覧</span></a></li><li class="item-1"><a href="/collectmodifylist"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">解約回収前調整一覧</span></a></li><li class="item-1"><a href="/allocateadjust"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">取消再計上調整一覧</span></a></li><li class="item-1"><a href="/dridmodify"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">ドラレコ紐づけ変更一覧</span></a></li></ul></li><li class="item-1 deeper parent">
+						<a data-toggle="collapse" href="#sub-item-85">
+							<span data-parent="#menu-group-1" href="#" class="sign"><i id="pmicon85" class="icon-plus icon-white"></i></span>
+							<span class="lbl">回収管理</span>
+						</a>
+						<ul class="children nav-child unstyled small collapse" id="sub-item-85"><li class="item-1"><a href="/collectlist"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">解約回収一覧</span></a></li></ul></li><li class="item-1 deeper parent">
+						<a data-toggle="collapse" href="#sub-item-88">
+							<span data-parent="#menu-group-1" href="#" class="sign"><i id="pmicon88" class="icon-plus icon-white"></i></span>
+							<span class="lbl">交換・紛失交換管理</span>
+						</a>
+						<ul class="children nav-child unstyled small collapse" id="sub-item-88"><li class="item-1"><a href="/maintenancelist"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">交換・紛失交換申請</span></a></li><li class="item-1"><a href="/sjexchangelist"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">交換一覧</span></a></li><li class="item-1"><a href="/sjlostlist"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">紛失交換一覧</span></a></li></ul></li><li class="item-1 deeper parent">
+						<a data-toggle="collapse" href="#sub-item-93">
+							<span data-parent="#menu-group-1" href="#" class="sign"><i id="pmicon93" class="icon-plus icon-white"></i></span>
+							<span class="lbl">出荷差戻<br /><span style="font-size:90%">(新規/解約/交換/紛失交換)</span></span>
+						</a>
+						<ul class="children nav-child unstyled small collapse" id="sub-item-93"><li class="item-1"><a href="/deliveryreturnlist"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">出荷戻り一覧</span></a></li></ul></li><li class="item-1 deeper parent">
+						<a data-toggle="collapse" href="#sub-item-96">
+							<span data-parent="#menu-group-1" href="#" class="sign"><i id="pmicon96" class="icon-plus icon-white"></i></span>
+							<span class="lbl">賠償金管理</span>
+						</a>
+						<ul class="children nav-child unstyled small collapse" id="sub-item-96"><li class="item-1"><a href="/reparation"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">賠償金支払見込み一覧</span></a></li><li class="item-1"><a href="/reparationdecision"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">賠償金支払一覧</span></a></li></ul></li><li class="item-1 deeper parent">
+						<a data-toggle="collapse" href="#sub-item-100">
+							<span data-parent="#menu-group-1" href="#" class="sign"><i id="pmicon100" class="icon-plus icon-white"></i></span>
+							<span class="lbl">違約金管理</span>
+						</a>
+						<ul class="children nav-child unstyled small collapse" id="sub-item-100"><li class="item-1"><a href="/penaltylist"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">違約金発生一覧</span></a></li><li class="item-1"><a href="/penaltypayresultupload"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">違約金入金結果</span></a></li></ul></li><li class="item-1 deeper parent">
+						<a data-toggle="collapse" href="#sub-item-104">
+							<span data-parent="#menu-group-1" href="#" class="sign"><i id="pmicon104" class="icon-plus icon-white"></i></span>
+							<span class="lbl">機器管理</span>
+						</a>
+						<ul class="children nav-child unstyled small collapse" id="sub-item-104"><li class="item-1"><a href="/driverecorder"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">ドライブレコーダ一覧</span></a></li><li class="item-1"><a href="/sdcard"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">SDカード一覧</span></a></li></ul></li><li class="item-1 deeper parent">
+						<a data-toggle="collapse" href="#sub-item-108">
+							<span data-parent="#menu-group-1" href="#" class="sign"><i id="pmicon108" class="icon-plus icon-white"></i></span>
+							<span class="lbl">CSVアップロード履歴</span>
+						</a>
+						<ul class="children nav-child unstyled small collapse" id="sub-item-108"><li class="item-1"><a href="/csvuploadhistory"><span class="sign"><i class="icon-play"></i></span><span class="lbl link"><span style="font-size:90%">CSVデータアップロード履歴</span></span></a></li></ul></li><li class="item-1 deeper parent" style="padding:16px 0px 3px 6px"><b>ルート権限用機能</b></li><li class="item-1 deeper parent">
+						<a data-toggle="collapse" href="#sub-item-112">
+							<span data-parent="#menu-group-1" href="#" class="sign"><i id="pmicon112" class="icon-plus icon-white"></i></span>
+							<span class="lbl">保険特約データ</span>
+						</a>
+						<ul class="children nav-child unstyled small collapse" id="sub-item-112"><li class="item-1"><a href="/euc/upload/form"><span class="sign"><i class="icon-play"></i></span><span class="lbl link"><span style="font-size:90%">保険特約データアップロード</span>	</span></a></li><li class="item-1"><a href="/eucuploadhistory"><span class="sign"><i class="icon-play"></i></span><span class="lbl link"><span style="font-size:80%">保険特約データアップロード履歴</span></span></a></li></ul></li><li class="item-1 deeper parent">
+						<a data-toggle="collapse" href="#sub-item-116">
+							<span data-parent="#menu-group-1" href="#" class="sign"><i id="pmicon116" class="icon-plus icon-white"></i></span>
+							<span class="lbl">配送状況管理</span>
+						</a>
+						<ul class="children nav-child unstyled small collapse" id="sub-item-116"><li class="item-1"><a href="/deliveryhistoryupload"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">ヤマト配送状況アップロード</span></a></li></ul></li><li class="item-1 deeper parent">
+						<a data-toggle="collapse" href="#sub-item-118">
+							<span data-parent="#menu-group-1" href="#" class="sign"><i id="pmicon118" class="icon-plus icon-white"></i></span>
+							<span class="lbl">アカウント管理</span>
+						</a>
+						<ul class="children nav-child unstyled small collapse" id="sub-item-118"><li class="item-1"><a href="/contractauth"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">アカウント一覧</span></a></li></ul></li><li class="item-1 deeper parent">
+						<a data-toggle="collapse" href="#sub-item-120">
+							<span data-parent="#menu-group-1" href="#" class="sign"><i id="pmicon120" class="icon-plus icon-white"></i></span>
+							<span class="lbl">営業店機能ログ</span>
+						</a>
+						<ul class="children nav-child unstyled small collapse" id="sub-item-120"><li class="item-1"><a href="/saleslog"><span class="sign"><i class="icon-play"></i></span><span class="lbl link">営業店機能操作ログ一覧</span></a></li></ul></li></ul></div>	
+	<script type="text/javascript">
+		// Cookieから左メニューの状態を復元
+		if ($("#div-menu-group-1").get(0)) {
+			// 開くノードリストを取得して、ノードを開く
+			var nodes = getMenuCookieValue("node").split("_");
+			for (var idx in nodes) {
+				$("#pmicon"+nodes[idx]).addClass("icon-minus").removeClass("icon-plus");
+				$("#sub-item-"+nodes[idx]).addClass("in");
+			}
+			// 左袖のスクロール量を再現する
+			var toppos = getMenuCookieValue("toppos");
+			$("#div-menu-group-1").get(0).scrollTop = 1*(toppos==""?0:toppos);
+		}
+	</script>
+</div>
+<!-- /#left -->
+</body>
+</html>
